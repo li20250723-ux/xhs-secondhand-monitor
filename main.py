@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from DrissionPage import ChromiumPage, ChromiumOptions
 from plyer import notification
 
-# 配置区
+# 配置区，这个可以根据自己需求改动检索关键词
 # 包含一个 TARGET + 一个 ACTION
 TARGET_WORDS = ["电视", "显示器", "机", "投影"]
 ACTION_WORDS = ["出", "自用", "二手", "搬家", "闲置", "处理", "回血", "不收"]
